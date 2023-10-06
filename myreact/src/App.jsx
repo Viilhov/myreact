@@ -1,9 +1,10 @@
+import ConditionalComponent from "./ConditionalComponent";
 import Fruits from "./Fruits";
 
 function App() {
   return (
     <div className="App">
-      <Fruits />
+      <ConditionalComponent />
     </div>
   );
 }
